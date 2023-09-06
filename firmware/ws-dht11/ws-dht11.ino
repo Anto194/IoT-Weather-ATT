@@ -53,12 +53,12 @@ void setup(void)
   rest.variable("location",&location);
     
   // Give name and ID to device
-  rest.set_id("200");
-  rest.set_name("alpha200");
+  rest.set_id("115");
+  rest.set_name("Martin_Martino");
   
   // Connect to WiFi
   WiFi.begin(ssid, password);
-  IPAddress ip(192, 168, 1, 200); //set static ip
+  IPAddress ip(192, 168, 1, 115); //set static ip
   IPAddress gateway(192, 168, 1, 1); //set getteway
   Serial.print(F("Setting static ip to : "));
   Serial.println(ip);
