@@ -10,7 +10,7 @@ app.use(expressLayouts);
 app.use(express.static('public'));
 app.use(express.json({ limit: '1mb'}));
 
-app.get('/', (req, res) => { 
+app.get('/sound', (req, res) => { 
     res.send("It is sonus") 
 });
 
