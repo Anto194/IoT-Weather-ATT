@@ -10,9 +10,13 @@ app.use(expressLayouts);
 app.use(express.static('public'));
 app.use(express.json({ limit: '1mb'}));
 
-app.get('/sound', (req, res) => { 
-    res.send("It is sonus") 
-});
+// Routes
+const indexRouter = require('./routes/index');
+
+app.use('/', indexRouter);
+// app.get('/sound', (req, res) => { 
+//     res.send("It is sonus") 
+// });
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
