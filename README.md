@@ -38,7 +38,7 @@
 
 Date | Commit Message | Version
 :-----|:----------------:|:--------:
-25.08.23 | initial setup | 0.1.0
+07.09.23 | Running local host | 0.2.1
 
 ### References
 
